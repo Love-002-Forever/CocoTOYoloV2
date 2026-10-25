@@ -1,0 +1,16 @@
+# 忽略模型权重
+checkpoints/
+*.pth
+
+# 忽略日志和输出结果
+logs/
+outputs/
+runs/
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略数据集 (如果你不想传任何图片)
+HelmetDataset-YOLO-Train/
+HelmetDataset-YOLO-Val/
